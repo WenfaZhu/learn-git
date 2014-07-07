@@ -16,3 +16,7 @@ https://github.com/gogotanc/learn-cpp.git
 git config -l
 
 $ git remote add origin git@github.com:gogotanc/learn-git.git
+
+git pull origin master
+
+git push origin master
