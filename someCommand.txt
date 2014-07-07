@@ -1,0 +1,18 @@
+git@github.com:gogotanc/leaern_cpp.git
+
+ssh -T git@github.com		
+
+git@github.com:gogotanc/learngit.git
+
+´íÎó£º
+ssh: github: no address associated with name
+
+ssh£ºconnect to host github.com port 22: Bad file number
+
+https://github.com/gogotanc/leaern_cpp.git
+
+https://github.com/gogotanc/learn-cpp.git
+
+git config -l
+
+$ git remote add origin git@github.com:gogotanc/learn-git.git
