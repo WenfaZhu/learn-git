@@ -28,3 +28,5 @@ git add
 git commit -m ""
 
 git push origin master
+
+git clone git@github.com:gogotanc/learn-git.git
