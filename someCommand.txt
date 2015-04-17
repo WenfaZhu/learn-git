@@ -1,10 +1,10 @@
-git@github.com:gogotanc/leaern_cpp.git
-
+say hello to github:
 ssh -T git@github.com		
 
 git@github.com:gogotanc/learngit.git
 
-´íÎó£º
+error:
+
 ssh: github: no address associated with name
 
 ssh£ºconnect to host github.com port 22: Bad file number
