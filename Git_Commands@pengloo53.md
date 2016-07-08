@@ -92,11 +92,3 @@ title: "Git 常用命令"
 6. `git clone git@server:/director/sample.git` 克隆Git服务器上的仓库
 
 _PS. 想方便管理公钥，用[Gitosis](https://github.com/res0nat0r/gitosis)；想控制权限，用[Gitolite](https://github.com/sitaramc/gitolite)。_
-
-
-
-
-lalala
-lalala
-lalala
-hotfix
