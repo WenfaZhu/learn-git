@@ -49,5 +49,8 @@ $ git checkout <file>
 #=> checkout命令后面加上需要恢复的文件，即可恢复删除的文件。
 ```
 
-
+```shell
+$ git ls-files -d | xargs -i git checkout {}
+#=> 恢复多个文件
+```
 
