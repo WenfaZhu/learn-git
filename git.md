@@ -1,11 +1,13 @@
 # Git 的使用说明
 
+`Git` 以及 `Github` 相关的设置和操作，有点混乱，待整理。
+
 ### 配置全局信息
 
 ```shell
-$ git config --global user.name "tanc"
+$ git config --global user.name "yourName"
 
-$ git config --global user.email "gogotanc@163.com"
+$ git config --global user.email "yourEmail"
 ```
 
 
@@ -33,10 +35,10 @@ $ cat ~/.ssh/id_rsa.pub
 
 ```shell
 # 添加名为 coding 的远程仓库
-$ git remote add coding master git@git.coding.net:gogotanc/tanc-blog.git
+$ git remote add coding master git@git.coding.net:gogotanc/learn-git.git
 
 # 添加名为 origin 的远程仓库
-$ git remote add origin master git@github.com:gogotanc/tanc-blog.git 
+$ git remote add origin master git@github.com:gogotanc/learn-git.git 
 ```
 
 # 恢复删除的文件（commit操作之前）
@@ -53,6 +55,8 @@ $ git checkout <file>
 $ git ls-files -d | xargs -i git checkout {}
 #=> 恢复多个文件
 ```
+
+> 这些命令在你输入 git status 的时候会有提示你接下来如何操作。
 
 ### 设置相关
 
