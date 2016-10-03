@@ -1,11 +1,7 @@
----
-
-layout: post  
-title: "Git 常用命令"
-
----
 ###学会这些命令，你就可以熟练的使用Git工具了，什么？想精通，那是不可能的。
+
 ####基本上，Git就是以下面的命令顺序学习的。文中笔记是从廖雪峰老师的[Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)中总结出来的，方面查阅命令。详细原理请看[Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
 ####1、基础
 - `git config --global user.name "Your Name"`设置你的仓库用户名（用于标识提交者）
 - `git config --global user.email "email@example.com"`设置你的仓库邮箱（用于标识提交者）
