@@ -117,3 +117,61 @@ $ git show 4ebd4bbc3ed321d01484a4ed206f18ce2ebde5ca
 ```shell
 $ git diff c0f28a2ec490236caa13dec0e8ea826583b49b7a 2e476412c34a63b213b735e5
 ```
+
+### 查看远程仓库信息
+
+查看远程仓库分支的信息
+
+```shell
+$ git ls-remote
+
+From git@github.com:gogotanc/docker-spark.git
+bbdf3430e3ea3504c53c753c51a720b673a69ff7	HEAD
+bbdf3430e3ea3504c53c753c51a720b673a69ff7	refs/heads/master
+e52ba1da9eb7c8d1709abcb0020be2e899ad5545	refs/heads/v1.1.1onHadoop2.6.0
+ac7358bdc61b09cba61a699fa5e90cb0f461ad0e	refs/heads/v1.1.1onHadoop2.6.0-ubuntu
+c5cdf7ff7b253114a4dff682f8d1e14a48bde603	refs/heads/v1.1onHadoop-2.5.1
+ef718168d10f660807c24ff3ada8a4d83521d49f	refs/heads/v1.2.0onHadoop2.6.0
+61b01fad61ac482c867ed30ad7fd4ebbaa6c9e3f	refs/heads/v1.2.0onHadoop2.6.0-ubuntu
+4c800ec6991af5a9708fb2d560a2be3fd999412e	refs/heads/v1.2.1onHadoop2.6.0
+4bfd538b17cfc50d9bd2c9ae38a3d18c2f6fc313	refs/heads/v1.2.1onHadoop2.6.0-ubuntu
+51ff7a94bd5397eab22f1372f812ef8ea4b3d533	refs/heads/v1.3.0onHadoop2.6.0
+865f897cd75615bce4bf8303d8a4d4b6c7be3c72	refs/heads/v1.3.0onHadoop2.6.0-ubuntu
+aded62d12469bad880d6b1d7a1fd46f6fd82b268	refs/heads/v1.3.1onHadoop2.6.0
+2afb1d7c131cf4b6574394418a856cf6f5b4e738	refs/heads/v1.3.1onHadoop2.6.0-ubuntu
+23f1dac4a9e5b82838789f156d04aea638e9b5a0	refs/heads/v1.4.0onHadoop2.6.0
+25f8c145d3adaaeb26d7f0c4d4403ef95ef6f6ee	refs/heads/v1.5.1onHadoop2.6.0
+07e053bbbeeb3770f5032b241ecce3c2767a3e83	refs/heads/v1.6.0onHadoop2.6.0
+```
+
+还可以使用下面的命令查看
+
+```shell
+$ git remote show origin
+
+* 远程 origin
+  获取地址：git@github.com:gogotanc/docker-spark.git
+  推送地址：git@github.com:gogotanc/docker-spark.git
+  HEAD 分支：master
+  远程分支：
+    master                     已跟踪
+    v1.1.1onHadoop2.6.0        已跟踪
+    v1.1.1onHadoop2.6.0-ubuntu 已跟踪
+    v1.1onHadoop-2.5.1         已跟踪
+    v1.2.0onHadoop2.6.0        已跟踪
+    v1.2.0onHadoop2.6.0-ubuntu 已跟踪
+    v1.2.1onHadoop2.6.0        已跟踪
+    v1.2.1onHadoop2.6.0-ubuntu 已跟踪
+    v1.3.0onHadoop2.6.0        已跟踪
+    v1.3.0onHadoop2.6.0-ubuntu 已跟踪
+    v1.3.1onHadoop2.6.0        已跟踪
+    v1.3.1onHadoop2.6.0-ubuntu 已跟踪
+    v1.4.0onHadoop2.6.0        已跟踪
+    v1.5.1onHadoop2.6.0        已跟踪
+    v1.6.0onHadoop2.6.0        已跟踪
+  为 'git pull' 配置的本地分支：
+    master 与远程 master 合并
+  为 'git push' 配置的本地引用：
+    master 推送至 master (最新)
+```
+
