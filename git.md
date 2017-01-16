@@ -175,3 +175,18 @@ $ git remote show origin
     master 推送至 master (最新)
 ```
 
+### 拉取本地没有的远程分支
+
+使用下面的命令即可将远端信息全部拉取过来
+
+```shell
+$ git pull origin
+```
+
+然后使用分支命令，对分支进行开发
+
+```shell
+$ git checkout -b yourBranchName origin/remoteBranchName
+```
+
+`yourBranchName` 可以是任意的名称，`remoteBranchName` 即远程的分支名称。
